@@ -1,0 +1,84 @@
+//register
+{
+    "_id": "5e63478935325000164bdc89",
+    "username": "Nikka",
+    "email": "nikka@gmail.com",
+    "createdAt": "2020-03-07T04:44:45.289Z"
+}
+
+
+//login
+{
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZTYzNGE1OTM1MzI1MDAwMTY0YmRjOGMiLCJ1c2VybmFtZSI6Ik5pa2t1IiwiY3JlYXRlZEF0IjoxNTgzNTcxNjA1MDc1LCJpYXQiOjE1ODM1NzE2MDV9.c57Ib7ch2au7nTaubj2BQ88asWTxc-dvNOr0JVEAECw"
+}
+
+//customers
+[
+    {
+        "createdAt": "2020-02-15T01:43:06.277Z",
+        "_id": "5e4843ac0ec0620016c3a3e6",
+        "name": "Customer o",
+        "email": "o@gmail.com",
+        "mobile": "8877543210",
+        "user": "5e461cd14adcda0016b15b5e",
+        "__v": 0
+    }
+]
+
+//departments
+to give-
+
+// {
+	"name":"newOne"
+}
+
+[
+    {
+        "_id": "5e4977cbf8e5800016327281",
+        "name": "it",
+        "user": "5e461cd14adcda0016b15b5e",
+        "__v": 0
+    }
+]
+
+
+//employees
+[
+    {
+        "_id": "5e53f31d82eefd0016a509d8",
+        "name": "e",
+        "email": "e@gmail.com",
+        "mobile": "9024713228",
+        "department": {
+            "_id": "5e498c13f8e58000163272c6",
+            "name": "finance",
+            "user": "5e461cd14adcda0016b15b5e",
+            "__v": 0
+        },
+        "user": "5e461cd14adcda0016b15b5e",
+        "__v": 0
+    }
+]
+
+
+//tickets
+
+[
+    {
+        "createdAt": "2020-02-24T12:14:16.727Z",
+        "isResolved": false,
+        "_id": "5e53eaa582eefd0016a509cf",
+        "code": "123",
+        "customer": "5e538dc96133db00169c9bc3",
+        "department": "5e4ac43d9da99a00162c6fbf",
+        "employees": [
+            {
+                "_id": "5e53eaa582eefd0016a509d0"
+            }
+        ],
+        "message": "hey check it once response is ohk or not?",
+        "priority": "High",
+        "user": "5e461cd14adcda0016b15b5e",
+        "__v": 0
+    }
+]
